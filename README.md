@@ -10,6 +10,7 @@ You have to install [github.com/twitter/twurl](https://github.com/twitter/twurl)
 # Usage
 
 1. Clone this repository
+2. Follow [twurl getting started guide](https://github.com/twitter/twurl#getting-started) and get **twurl** working with the desired **Twitter** account
 2. Run the script from the root
 
 ```
@@ -34,3 +35,9 @@ $ node src/index.js /home/user/archive/data/tweet.js 4/1/2020 12/1/2020 SHOW_FRO
 ```
 $ node src/index.js /home/user/archive/data/tweet.js 4/1/2020 12/1/2020 REMOVE
 ```
+
+# TODO
+
+- Add other filters than tweet date
+- Add other commands than just showing/removing
+- Create a reusable function for executing twurl commands (template)
